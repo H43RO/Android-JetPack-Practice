@@ -23,6 +23,10 @@ android {
         }
     }
 
+    //View Binding 사용 명시
+    buildFeatures{
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -35,7 +39,6 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
-    // 메테리얼 디자인
     implementation 'com.google.android.material:material:1.1.0'
 
 }
